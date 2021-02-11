@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding-top: 40px;
+    width: 1140px;
+    margin: 0 auto;
+    height: auto;
+}
+.logo{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contacts{
+    text-align: right;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.first_screen{
+    background: linear-gradient(180deg, #5766D6 0%, #525ba2 100%);
+    height: 1024px;
+
+}
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+    height: auto;
+}
+h1{
+    width: 415px;
+    margin: 0;
+    padding-bottom: 58px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+}
+.text_part{
+    margin: 0;
+}
+.text_part p{
+    padding-bottom: 59px;
+    width: 462px;
+    margin-bottom: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.button{
+    margin-top: 60px;
+    width: 284px;
+    padding: 10px 45px 10px 54px;
+    background: #FFE360;
+    text-decoration: none;
+    height: 60px;
+    border-radius: 38.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #333333;
+}
+.button:hover{
+    margin-top: 60px;
+    padding: 10px 45px 10px 54px;
+    background: #FFE360;
+    text-decoration: none;
+    height: 60px;
+    border-radius: 38.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #333333;
+}
+.second_screen{
+    height: 1024px;
+    background: #FAFAFA;
+}
+.second_highlight{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+
+    letter-spacing: 0.05em;
+    padding-bottom: 98px    ;
+    color: #333333;
+}
+.info_study{
+    padding-top: 170px;
+    width: 949px;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+}
+.text_study {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+.passive{
+    display: block;
+}
+.cards{
+    padding-top: 97px;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 380px;
+    height: 380px;
+    background: #F2F2F2;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 140px;
+}
+.label{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #333333;
+}
+.number{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #333333;
+}
+.active{
+    display: none;
+}
+.active_cards{
+    padding-top: 97px;
+    display: flex;
+    justify-content: space-around;
+}
+.card_active{
+    width: 380px;
+    height: 380px;
+    background: #FFE360;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.active_label{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    padding-top: 21px;
+}
+.active_text{
+    padding-top: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+.third_screen{
+    height: 1024px;
+    background: #FAFAFA;
+}
+.info_reasons{
+    padding-top: 103px;
+}
+
+.text_info{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.third_highlight{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+h3{
+    height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+.icon{
+    padding-top: 53px;
+    text-align: center;
+    padding-bottom: 68px;
+}
+.columns{
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    width: 318px;
+    padding: 31px;
+}
+.col p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.line{
+    height: 70px;
+    background: #FFE360;
+    text-align: center;
+}
+.line_telegram a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #454545;
+}
+.line_telegram a:hover{
+    color: #454545;
+}
+.fourth_screen{
+    height: 1024px;
+}
+.fourth_highlight{
+    padding-top: 149px;
+    padding-bottom: 82px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+}
+.questions{
+    width: 950px;
+    margin: 0 auto;
+    height: auto;
+}
+.element{
+    display: flex;
+    justify-content: left;
+    background: #F2F2F2;
+    margin-bottom: 30px;
+}
+.element p{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+}
+.element img{
+    padding: 32px;
+}
+.button_faq{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 150px;
+    background: #454545;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
